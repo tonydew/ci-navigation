@@ -23,7 +23,6 @@ class Navigation
      * by default this is a ul.
      * 
      * @var string
-     * @todo create a public method to change this
      */
     public $child_element_type = 'ul';
 
@@ -33,7 +32,6 @@ class Navigation
      * on a ul.
      * 
      * @var string
-     * @todo create a public method to change this
      */
     public $child_element_class = 'dropdown-menu';
 
@@ -42,7 +40,6 @@ class Navigation
      * By default this adds a class to the anchor element.
      * 
      * @var array default is class = 'dropdown-toggle'
-     * @todo create a public method to change this
      */
     public $child_anchor_params = array(
         'class'       => 'dropdown-toggle',
@@ -54,7 +51,6 @@ class Navigation
      * the dropdown. By default this is an li.
      * 
      * @var array default is class = 'dropdown'
-     * @todo create a public method to change this
      */
     public $dropdown_prepend_params = array(
         'class' => 'dropdown',
@@ -64,7 +60,6 @@ class Navigation
      * Append an icon to the end of the anchor element for dropdowns
      * 
      * @var string
-     * @todo create a public method to change this
      */
     public $dropdown_anchor_caret = ' <b class="caret"></b>';
 
